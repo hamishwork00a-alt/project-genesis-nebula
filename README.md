@@ -1,24 +1,47 @@
-# Shenqu Algorithm: Calibrating Reality with Symmetry
+# Shenqu Algorithm
 
-A novel mathematical framework that redefines analog-to-digital converter (ADC) calibration by quantifying and correcting symmetry mismatches (𝒟) in the dynamic magic hypercube of comparator arrays.
+> Symmetry-based Calibration for Analog and Quantum Systems
 
-## Installation
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
+A novel mathematical framework that redefines system calibration by quantifying and correcting symmetry mismatches (𝒟) in dynamic multi-dimensional structures.
+
+## 🚀 Features
+
+- **Symmetry Mismatch Quantification**: Precisely measure system deviation from ideal symmetry
+- **Adaptive Calibration**: Self-adjusting optimization based on symmetry principles  
+- **Multi-Dimensional Analysis**: Handle complex systems with high-dimensional constraints
+- **Hardware-Agnostic**: Works with both simulated and real-world system data
+
+## 📦 Installation
+
 ```bash
-pip install -r requirements.txt
 pip install -e .
 ```
-
-## Quick Start
+💡 Quick Start
 
 ```python
-from shenqu import core
-D = core.generate_demo_data()
-mismatch = core.calculate_symmetry_mismatch(D)
-print(f"System Symmetry Mismatch: {mismatch:.6f}")
+from shenqu import generate_demo_data, calculate_symmetry_mismatch
+
+# Analyze system symmetry
+system_data = generate_demo_data(size=8, noise_level=0.02)
+mismatch = calculate_symmetry_mismatch(system_data)
+
+print(f"System symmetry mismatch: {mismatch:.6f}")
 ```
 
-## Theory
+🎯 Applications
 
-See docs/theory_background.md for the mathematical foundation.
+· ADC/DAC calibration and optimization
+· Quantum system simulation and validation
+· High-precision measurement systems
+· Multi-physics system modeling
 
-```
+🔬 Theory
+
+Based on dynamic magic hypercube constraints and symmetry preservation principles. See theory documentation for detailed mathematical foundation.
+
+🤝 Contributing
+
+We welcome collaborations and contributions from researchers and engineers.
