@@ -60,3 +60,11 @@ print(f"系统对称性失配度: {mismatch:.6f}")
 <div align="center">探索当前MVP · Shenqu Algorithm · 规划未来 · 讨论区
 
 </div>
+
+## 💬 加入讨论
+
+我们在统一的社区中交流所有项目：
+- [**Discussions 讨论区**](https://github.com/orgs/project-genesis-nebula/discussions)
+- [报告问题](https://github.com/project-genesis-nebula/Shenqu-Algorithm/issues)
+
+无论您对哪个子项目感兴趣，都欢迎在这里交流！
