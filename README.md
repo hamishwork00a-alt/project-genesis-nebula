@@ -4,7 +4,7 @@
 
 **从数学原理到物理现实的统一框架**
 
-[![Shenqu Algorithm](https://img.shields.io/badge/MVP-Shenqu%20Algorithm-blue.svg)](https://github.com/project-genesis-nebula/blob/Shenqu-Algorithm)
+[![Shenqu Algorithm](https://img.shields.io/badge/MVP-Shenqu%20Algorithm-blue.svg)](https://github.com/hamishwork00a-alt/project-genesis-nebula/tree/main/Shenqu-Algorithm)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > *"我们不是在优化现有范式，而是在构建下一代的科学发现引擎"*
