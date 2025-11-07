@@ -98,6 +98,6 @@ If you use Shenqu Algorithm in your research, please cite it as:
 
 **🔼 [返回 Project Genesis Nebula 母项目](../)** · 
 **💬 [加入技术讨论](https://github.com/hamishwork00a-alt/project-genesis-nebula/discussions/3#discussion-9118387)** · 
-**🚀 [探索下一个项目](../../)** 
+**🚀 [探索下一个项目](https://github.com/hamishwork00a-alt/project-genesis-nebula/issues/4)** 
 
 </div>
