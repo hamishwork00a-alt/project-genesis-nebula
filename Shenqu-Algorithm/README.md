@@ -1,3 +1,31 @@
+<div align="center">
+
+# Shenqu Algorithm
+
+[![Project Genesis Nebula](https://img.shields.io/badge/Project-Genesis%20Nebula-8A2BE2.svg)](../)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.8+](https://img.shields.io/badge/Python-3.8+-green.svg)](https://www.python.org/downloads/)
+
+**对称性量化框架 | Project Genesis Nebula 的首个MVP**
+
+[快速开始](#-快速开始) · [返回母项目](../) · [讨论区](https://github.com/orgs/project-genesis-nebula/discussions)
+
+</div>
+
+> *"这是我们的第一块基石，证明统一数学框架的可行性"*
+
+## 🎯 在更大蓝图中的位置
+
+Shenqu Algorithm 是 **Project Genesis Nebula** 统一理论框架的技术验证。我们选择**对称性校准**作为突破口，因为：
+
+- ✅ **可验证**：有明确的数学证明和测试标准
+- ✅ **跨领域**：适用于材料、电子、量子系统
+- ✅ **有深度**：触及物理规律的核心——对称性
+
+**成功标准**：证明我们的数学框架能解决真实世界的校准问题，为后续更宏伟的项目奠定基础。
+
+## 🚀 立即开始
+
 # Shenqu Algorithm
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -65,3 +93,11 @@ If you use Shenqu Algorithm in your research, please cite it as:
   url = {https://github.com/project-genesis-nebula/Shenqu-Algorithm},
   version = {1.0.0}
 }
+```
+<div align="center">
+
+**🔼 [返回 Project Genesis Nebula 母项目](../)** · 
+**💬 [加入技术讨论](https://github.com/orgs/project-genesis-nebula/discussions)** · 
+**🚀 [探索下一个项目](../../)** 
+
+</div>
