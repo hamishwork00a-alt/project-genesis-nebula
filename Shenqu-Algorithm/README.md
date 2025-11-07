@@ -8,7 +8,7 @@
 
 **对称性量化框架 | Project Genesis Nebula 的首个MVP**
 
-[快速开始](#-快速开始) · [返回母项目](../) · [讨论区](https://github.com/orgs/project-genesis-nebula/discussions)
+[快速开始](#-快速开始) · [返回母项目](../) · [讨论区](https://github.com/hamishwork00a-alt/project-genesis-nebula/discussions/3#discussion-9118387)
 
 </div>
 
@@ -49,7 +49,7 @@ A novel mathematical framework that redefines system calibration by quantifying 
 pip install -e .
 ```
 
-💡 Quick Start
+##💡 Quick Start
 
 ```python
 from shenqu import generate_demo_data, calculate_symmetry_mismatch
@@ -97,7 +97,7 @@ If you use Shenqu Algorithm in your research, please cite it as:
 <div align="center">
 
 **🔼 [返回 Project Genesis Nebula 母项目](../)** · 
-**💬 [加入技术讨论](https://github.com/orgs/project-genesis-nebula/discussions)** · 
+**💬 [加入技术讨论](https://github.com/hamishwork00a-alt/project-genesis-nebula/discussions/3#discussion-9118387)** · 
 **🚀 [探索下一个项目](../../)** 
 
 </div>
