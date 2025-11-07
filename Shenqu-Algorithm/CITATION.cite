@@ -1,0 +1,24 @@
+# How to Cite Shenqu Algorithm
+
+## BibTeX Entry
+@software{shenqu_algorithm,
+  title = {Shenqu Algorithm: Symmetry-based calibration for analog and quantum systems},
+  author = {Project Genesis Team},
+  year = {2024},
+  publisher = {GitHub},
+  url = {https://github.com/project-genesis-nebula/Shenqu-Algorithm},
+  version = {1.0.0},
+  note = {A novel mathematical framework for quantifying and correcting symmetry mismatches in multi-dimensional systems}
+}
+
+## Plain Text Citation
+Project Genesis Team. (2024). Shenqu Algorithm: Symmetry-based calibration for analog and quantum systems (Version 1.0.0) [Computer software]. https://github.com/project-genesis-nebula/Shenqu-Algorithm
+
+## APA Style
+Project Genesis Team. (2024). Shenqu Algorithm: Symmetry-based calibration for analog and quantum systems (Version 1.0.0) [Computer software]. GitHub. https://github.com/project-genesis-nebula/Shenqu-Algorithm
+
+## MLA Style
+Project Genesis Team. Shenqu Algorithm: Symmetry-based calibration for analog and quantum systems. Version 1.0.0, GitHub, 2024, https://github.com/project-genesis-nebula/Shenqu-Algorithm.
+
+## For Publications
+If you use Shenqu Algorithm in your research, please cite using the BibTeX entry above. For commercial use, please contact the project team.
