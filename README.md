@@ -65,6 +65,6 @@ print(f"系统对称性失配度: {mismatch:.6f}")
 
 我们在统一的社区中交流所有项目：
 - [**Discussions 讨论区**](https://github.com/hamishwork00a-alt/project-genesis-nebula/issues/2)
-- [报告问题](https://github.com/project-genesis-nebula/Shenqu-Algorithm/issues)
+- [报告问题](https://github.com/hamishwork00a-alt/project-genesis-nebula/discussions/3#discussion-9118387)
 
 无论您对哪个子项目感兴趣，都欢迎在这里交流！
