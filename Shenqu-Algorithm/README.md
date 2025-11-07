@@ -3,9 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-green.svg)](https://www.python.org/downloads/)
 [![Tests](https://img.shields.io/badge/Tests-100%25%20passed-brightgreen.svg)](https://github.com/project-genesis-nebula/Shenqu-Algorithm/actions)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1234567.svg)](https://doi.org/10.5281/zenodo.1234567)
 
-> Symmetry-based Calibration for Analog and Quantum Systems
+> Symmetry-Based Calibration for High-Precision Systems
 
 A novel mathematical framework that redefines system calibration by quantifying and correcting symmetry mismatches (𝒟) in dynamic multi-dimensional structures.
 
@@ -21,6 +20,7 @@ A novel mathematical framework that redefines system calibration by quantifying 
 ```bash
 pip install -e .
 ```
+
 💡 Quick Start
 
 ```python
@@ -46,7 +46,11 @@ Based on dynamic magic hypercube constraints and symmetry preservation principle
 
 🤝 Contributing
 
-We welcome collaborations and contributions from researchers and engineers.# Shenqu Algorithm
+We welcome contributions! Please see our Contributing Guide and Code of Conduct.
+
+📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 📚 Citation
 
