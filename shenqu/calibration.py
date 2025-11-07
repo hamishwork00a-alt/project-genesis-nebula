@@ -61,36 +61,36 @@ class AdaptiveCalibrator:
     
     def _compute_calibration_step(self, state: np.ndarray, mismatch: float) -> np.ndarray:
         """Compute meaningful calibration adjustment step."""
-    n = state.shape[0]
-    
-    # 基于对称性原理的真实校准逻辑
-    # 1. 计算当前矩阵的行和、列和差异
-    row_sums = np.sum(state, axis=1)
-    col_sums = np.sum(state, axis=0)
-    
-    # 2. 计算对角线差异
-    main_diag = np.trace(state)
-    anti_diag = np.trace(np.fliplr(state))
-    
-    # 3. 构建校准方向矩阵
-    calibration_matrix = np.zeros_like(state)
-    
-    for i in range(n):
-        for j in range(n):
-            # 行-列平衡项
-            row_col_balance = (row_sums[i] - col_sums[j]) / (2 * n)
-            # 对角线平衡项  
-            diag_balance = 0
-            if i == j:
-                diag_balance = (main_diag - anti_diag) / (2 * n)
-            elif j == n - 1 - i:
-                diag_balance = (anti_diag - main_diag) / (2 * n)
-                
-            calibration_matrix[i, j] = row_col_balance + diag_balance
-    
-    # 4. 应用学习率和失配度缩放
-    step_size = 0.1 * mismatch
-    return -step_size * calibration_matrix  # 负号表示向更对称方向调整
+        n = state.shape[0]
+        
+        # 基于对称性原理的真实校准逻辑
+        # 1. 计算当前矩阵的行和、列和差异
+        row_sums = np.sum(state, axis=1)
+        col_sums = np.sum(state, axis=0)
+        
+        # 2. 计算对角线差异
+        main_diag = np.trace(state)
+        anti_diag = np.trace(np.fliplr(state))
+        
+        # 3. 构建校准方向矩阵
+        calibration_matrix = np.zeros_like(state)
+        
+        for i in range(n):
+            for j in range(n):
+                # 行-列平衡项
+                row_col_balance = (row_sums[i] - col_sums[j]) / (2 * n)
+                # 对角线平衡项  
+                diag_balance = 0
+                if i == j:
+                    diag_balance = (main_diag - anti_diag) / (2 * n)
+                elif j == n - 1 - i:
+                    diag_balance = (anti_diag - main_diag) / (2 * n)
+                    
+                calibration_matrix[i, j] = row_col_balance + diag_balance
+        
+        # 4. 应用学习率和失配度缩放
+        step_size = 0.1 * mismatch
+        return -step_size * calibration_matrix  # 负号表示向更对称方向调整
 
 
 class SymmetryOptimizer:
