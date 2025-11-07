@@ -19,17 +19,16 @@ def demonstrate_algorithm():
     # Calculate symmetry mismatches
     ideal_mismatch = calculate_symmetry_mismatch(ideal_matrix)
     noisy_mismatch = calculate_symmetry_mismatch(noisy_matrix)
-
-    # 在打印校准潜力之前添加检查
-if ideal_mismatch > 0:
-    improvement_ratio = noisy_mismatch / ideal_mismatch
-    print(f"Calibration potential: {improvement_ratio:.1f}x improvement")
-else:
-    print("Calibration potential: Perfect symmetry achieved (infinite improvement possible)")
     
     print(f"Ideal matrix symmetry mismatch: {ideal_mismatch:.6f}")
     print(f"Noisy matrix symmetry mismatch: {noisy_mismatch:.6f}")
-    print(f"Calibration potential: {noisy_mismatch/ideal_mismatch:.1f}x improvement")
+    
+    # 修复除零问题
+    if ideal_mismatch > 0:
+        improvement_ratio = noisy_mismatch / ideal_mismatch
+        print(f"Calibration potential: {improvement_ratio:.1f}x improvement")
+    else:
+        print("Calibration potential: Perfect symmetry achieved (infinite improvement possible)")
     
     # Create visualization
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
